@@ -15,7 +15,7 @@ const Hero = () => (
       }
       description={
         <>
-          I am Anshu pursuing my Bachelor's Degree in the stream of computer
+          I am pursuing my Bachelor's Degree in the stream of computer
           science. I have Strong knowledge of web technologies such as HTML,
           CSS, Javascript , React Js, Next Js, Redux Toolkit , Express Js, Node
           js, Mongodb, Tailwindcss.
@@ -33,26 +33,26 @@ const Hero = () => (
         <>
           <a href="/">
             <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
+              src="/assets/images/github.png"
+              alt="github icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/anshu0x/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
+              src="/assets/images/linkedin.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="mailto:anshusharma6327@gmail.com">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/assets/images/gmail.png"
+              alt="gmail icon"
+            />
+          </a>
+          <a href="tel:9518008087">
+            <HeroSocial
+              src="/assets/images/telephone.png"
+              alt="telephone icon"
             />
           </a>
         </>
