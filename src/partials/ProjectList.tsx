@@ -14,7 +14,7 @@ const ProjectList = () => (
       </>
     }
   >
-    <div className="flex flex-col gap-6">
+    <div id="projects" className="flex flex-col gap-6">
       <Project
         name="Project 1"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -51,6 +51,81 @@ const ProjectList = () => (
       />
       <Project
         name="Project 3"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+        hendrerit dui odio id enim."
+        link="/"
+        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Project 4"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+        hendrerit dui odio id enim."
+        link="/"
+        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Project 5"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+        hendrerit dui odio id enim."
+        link="/"
+        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Project 6"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+        hendrerit dui odio id enim."
+        link="/"
+        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Project 7"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+        hendrerit dui odio id enim."
+        link="/"
+        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Project 8"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."

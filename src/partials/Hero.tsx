@@ -10,20 +10,15 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Anshu Sharma</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I am Anshu pursuing my Bachelor's Degree in the stream of computer
+          science. I have Strong knowledge of web technologies such as HTML,
+          CSS, Javascript , React Js, Next Js, Redux Toolkit , Express Js, Node
+          js, Mongodb, Tailwindcss.
         </>
       }
       avatar={
